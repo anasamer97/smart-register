@@ -1,0 +1,15 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #222831;
+}
+
+.login-box {
+    background-color: #393E46;
+}
+
+
+@media (max-width:768px) {
+    .login-box {
+        width: 75% !important;
+    }
+}

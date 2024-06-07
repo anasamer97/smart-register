@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Signup</title>
+</head>
+
+<body>
+
+    <div
+        class="login-box d-flex justify-content-center align-items-center flex-column text-center m-5  p-5 border border-1 border-black shadow w-50 mx-auto shadow rounded">
+        <h5 class="display-6 fw-light text-white">Smart Login System</h5>
+
+        <form id="form" class="w-100 my-3">
+
+            <div class="form-floating">
+                <input class="form-control w-100" type="text" name="name" id="floatingName" placeholder="">
+
+                <label for="floatingName">Enter your name.</label>
+            </div>
+
+            <div class="form-floating">
+                <input class="form-control w-100 my-3" type="email" name="email" id="floatingEmail" placeholder="">
+
+                <label for="floatingEmail">Enter your email.</label>
+            </div>
+            <div class="form-floating my-3">
+                <input type="password" placeholder="" id="floatingPassword"
+                    class="mt-2 w-100 form-control form-floating">
+
+                <label for="floatingPassword">Enter your password</label>
+            </div>
+            <p id="formMessageFailed" class="text-danger d-none">Wrong Inputs!</p>
+            <p id="formMessageSuccess" class="text-success d-none">Sign up success!</p>
+            <button id="signUpButton" class="btn btn-success my-1 w-100" type="submit">Sign up</button>
+        </form>
+        <p class="text-white">Have an account? <a href="#" id="signInButton" class="text-decoration-none">Sign in!</a>
+        </p>
+    </div>
+
+
+
+
+    <script src="js/signup.js"></script>
+</body>
+
+</html>
