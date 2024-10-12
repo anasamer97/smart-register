@@ -1,1 +1,1 @@
-- Simple register & login regex webiste that uses window.location.href to navigate between windows.
+- Simple register & login regex webiste that uses window.location.href to navigate between pages.
